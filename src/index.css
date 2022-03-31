@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  width: 25vw;
+  height: 6vh;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  font-size: large;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }

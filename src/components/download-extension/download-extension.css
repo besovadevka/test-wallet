@@ -1,0 +1,23 @@
+.download-extension {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 40vw;
+  height: 20vh;
+  background-color: #f6851b;
+  border: 8px solid #763d16;
+  border-radius: 40px;
+  font-size: larger;
+}
+
+.download-extension__button {
+  background-color: #763d16;
+  color: #000000;
+}
+
+.download-extension__link {
+  text-decoration: none;
+  color: white;
+}
